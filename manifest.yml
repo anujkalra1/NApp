@@ -1,0 +1,7 @@
+applications:
+- name: itc_app
+  buildpack: nodejs_buildpack
+  memory: 128M
+  services:
+    - dest_ITPConfigV1
+    - xsuaa-new-two
